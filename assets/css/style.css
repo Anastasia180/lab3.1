@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+body {
+    background: url(../img/white-background-1.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.conteiner1{
+height: 100vh;
+width: 100vw;
+max-height: 600px;
+max-width: 1280px;
+min-height: 400px;
+min-width: 1000px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;}
+
+.section {
+    padding: 80px 0 0 0 ;
+
+}
+
+.section--clients {
+    background: #f4f5f7 url(../im//ph.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section__header {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: black;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: black;
+
+}
+
+.section__text {
+    color: gray;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.card {
+height: 379px;
+width: 300px;
+background: grey;
+border-radius: 10px;
+transition: background 0.8s;
+overflow: hidden;
+background: black;
+box-shadow: 0 70px 63px -60px #000000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;}
+
+
+
+.card0{
+background: url(../img/м1.jpg) center center no-repeat;
+background-size: 300px;}
+
+.card0:hover{
+background: url(../img/м1.jpg) left center no-repeat;
+background-size: 600px;}
+
+.card1{
+background: url(../img/м2.jpg) center center no-repeat;
+background-size: 300px;}
+
+.card1:hover{
+background: url(../img/м2.jpg) left center no-repeat;
+background-size: 600px;}
+
+
+.card2{
+background: url(../img/м3.jpg) center center no-repeat;
+background-size: 300px;}
+
+.card2:hover{
+background: url(../img/м3.jpg) left center no-repeat;
+background-size: 600px;}
+
+.footer {
+	background-color: #f5f5f5;
+}
+
+.footer__row {
+	display: flex;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__text {
+	font-size: 18px;
+	color: #445162;
+    letter-spacing: .3px;
+}
